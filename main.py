@@ -1,5 +1,5 @@
-from auth import store_user, verify_user, delete_user
-from encryptorDb import client
+from auth.auth import store_user, verify_user, delete_user
+from db.encryptorDb import client
 
 def interface():
     if client is not None:

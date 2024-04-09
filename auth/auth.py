@@ -1,6 +1,6 @@
 import hashlib
 import os
-from encryptorDb import collection
+from db.encryptorDb import collection
 
 
 def hash_password(password):

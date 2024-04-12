@@ -92,6 +92,8 @@ The UserIDs along with their hashed passwords, salts, and salted passwords are s
 4) If the user is not found in the database, the deletion process does not go through, and user is faced with an error.
 5) If the credentials (password) provided by the user is incorrect, then user is faced with an error of invalid credentials.
 
+# Authentication Flow
+
 ![authFlowchart](https://github.com/avyuktsoni0731/python-mongo-authentication/blob/main/static/authFlowchart.png?raw=true)
 
 # Working
